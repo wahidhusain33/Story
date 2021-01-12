@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gold;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-top: 1%;
+        }
+
+        #img {
+            display: block;
+            width: 45%;
+            margin: 0 auto;
+            border-radius: 10px;
+            background-color: white;
+
+        }
+
+        .story {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            width: 45%;
+            margin-top: 3px;
+            margin-left: 27.5%;
+            height: 125vh;
+        }
+        #butX{
+            margin-top: 5vh;
+        }
+
+        #mainBut{
+            padding: 2%;
+            padding-left: 3%;
+            padding-right: 3%;
+            font-size: 20px;
+            color: rgb(231, 42, 8);
+            border: none;
+            border-radius: 10%;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #mainBut:hover{
+            background-color: rgb(231, 42, 8);
+            transition: 2s;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+
+<body onload="loading()">
+    <section id="img">
+        <img src="story1.png" alt="Form A Story">
+    </section>
+    <div class="story" id="yourStory">
+        <h2 id="title"></h2>
+        <div id="paragraph">
+
+        </div>
+        <h2>Moral of the Story :</h2>
+        <div id="moral">
+
+        </div>
+        <div id="butX">
+            <a href="index.html"><button type="submit" id="mainBut">Home</button></a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
